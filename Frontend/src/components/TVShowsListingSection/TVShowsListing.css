@@ -1,0 +1,24 @@
+.tvshowItemContainer {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.tvListImage {
+  width: 150px;
+  height: 230px;
+}
+
+.tvListImage:hover {
+  transform: scale(1.2);
+}
+
+.center {
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .tvListImage {
+    width: 135px;
+    height: 200px;
+  }
+}

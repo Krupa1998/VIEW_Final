@@ -1,0 +1,24 @@
+.movieItemContainer {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.movieListImage {
+  width: 150px;
+  height: 230px;
+}
+
+.movieListImage:hover {
+  transform: scale(1.2);
+}
+
+.center {
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .movieListImage {
+    width: 135px;
+    height: 200px;
+  }
+}

@@ -1,0 +1,19 @@
+.movieDetailsContainer {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  justify-content: center;
+  color: white;
+}
+
+.movieImageContainer {
+  text-align: center;
+}
+
+.tvPriceContainer {
+  padding-top: 30px;
+}
+.movieImage {
+  float: right;
+  width: auto;
+  height: auto;
+}

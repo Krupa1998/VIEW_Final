@@ -1,0 +1,22 @@
+.dashboard {
+  padding-top: 1px;
+  padding-bottom: 20px;
+  width: 40rem;
+  margin: 0 auto;
+  float: none;
+  border-radius: 10px;
+  border-color: #f8f9fa;
+  background-color: white;
+}
+
+.title {
+  color: black;
+}
+
+@media (min-width: 280px) and (max-width: 653px) {
+  .dashboard {
+    width: 17rem;
+    margin: 0 auto;
+    float: none;
+  }
+}

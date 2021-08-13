@@ -1,0 +1,154 @@
+.footer {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 25px;
+  margin-top: 50px;
+  bottom: 0;
+  width: 100%;
+  height: 35%;
+}
+
+.footer .footer-left,
+.footer .footer-center,
+.footer .footer-right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* footer left*/
+
+.footer .footer-left {
+  width: 33%;
+  padding-right: 15px;
+  text-align: left;
+}
+
+.footer .about {
+  line-height: 20px;
+  color: white;
+  font-size: 15px;
+  font-weight: lighter;
+  margin: 0;
+}
+
+.footer .about span {
+  display: block;
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+/* footer center*/
+
+.footer .footer-center {
+  text-align: center;
+  width: 30%;
+}
+
+.footer .footer-center i {
+  color: white;
+  background-color: dimgray;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer .footer-center i.fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer .footer-center p {
+  display: inline-block;
+  color: white;
+  vertical-align: middle;
+  margin: 0;
+  font-weight: lighter;
+}
+
+.footer .footer-center p span {
+  display: block;
+  font-weight: lighter;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.footer .footer-center p a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer .footer-center p a:hover {
+  opacity: 0.7;
+}
+
+/* footer right*/
+
+.footer .footer-right {
+  text-align: right;
+  width: 35%;
+}
+
+.footer .menu {
+  color: white;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer .menu a {
+  font-weight: lighter;
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer .menu a:hover {
+  opacity: 0.7;
+}
+
+.footer .name {
+  color: #0099ff;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+  bottom: 0;
+  text-align: center;
+}
+
+.logo-title {
+  font-family: "Yellowtail";
+  font-weight: 500;
+  font-size: 45px;
+  text-decoration: none;
+  /* text-align: center; */
+}
+
+.logo {
+  text-decoration: none;
+}
+
+@media (max-width: 767px) {
+  .footer {
+    font-size: 14px;
+  }
+  .footer .footer-left,
+  .footer .footer-center,
+  .footer .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .footer .footer-center i {
+    margin-left: 0;
+  }
+}

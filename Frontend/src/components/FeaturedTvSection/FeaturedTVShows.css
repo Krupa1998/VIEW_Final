@@ -1,0 +1,15 @@
+.featuredTVContainer {
+  padding: 2rem 0rem;
+}
+
+.c-container {
+  justify-content: center;
+  background-color: #2d6a4f;
+  border-radius: 0.5rem;
+  padding: 1.2rem 1.2rem;
+  margin: 1rem 0rem;
+}
+
+.tvPoster:hover {
+  transform: scale(1.2);
+}

@@ -1,0 +1,19 @@
+.tvDetailsContainer {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  justify-content: center;
+  color: white;
+}
+
+.tvImageContainer {
+  text-align: center;
+}
+
+.tvPriceContainer {
+  padding-top: 30px;
+}
+.tvImage {
+  float: right;
+  width: auto;
+  height: auto;
+}
